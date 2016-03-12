@@ -68,7 +68,7 @@ figure, imshow(x_2d); title('original');
 figure, imshow(y_2d); title('degraded (blur+noise)');
 
 
-%% non-blind deconvolution (without noise, known y,h, get x)
+%% non-blind deconvolution (with noise, known y,h, get x)
 %%% 1. direct method (pseudo inverse)
 %%% 1-1. least squares (LS)
 fprintf('== LS with pseudo-inverse\n');
